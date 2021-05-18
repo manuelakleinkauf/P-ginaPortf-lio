@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(253, 255, 221);
+    color: black;
+}
+header{
+    height: 150px;
+    background-color: rgb(253, 255, 221);
+    float: left;
+    width: 100%;
+}
+header div{
+    width:40%;
+    float: left;
+}
+#logo img{
+    width:20%;
+}
+#title{
+    padding-top: 30px;
+    float: left;
+    font-size:25px;
+}
+nav{
+    height: 36px;
+    width:100%;
+    background-color: #DEB887;
+    padding: 15px;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    margin-top:7px;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration:none;
+    padding:22px;
+    margin-left: 30px;
+}
+nav ul li a:hover{
+    background-color:rgb(248, 248, 248);
+}
+main{
+    width: 100%;
+    float: left;
+    padding:22px;
+    
+}
+main div{
+    margin: 0 auto;
+    float: left;
+    width: 90%;
+}
+.imagens{
+    width:30%;
+    border:1px solid rgba(249, 255, 83, 0.041);
+    float:left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.imagens img{
+    width:100%;
+}
+footer{
+    float:left;
+    width:100%;
+    padding:15px;
+    background-color: rgb(253, 255, 221);
+}
+footer p{
+    text-align: center;
+    font-size:14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
